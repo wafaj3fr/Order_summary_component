@@ -44,6 +44,7 @@ p{
 }
 
 a{font-weight: 900; color:  hsl(245, 75%, 52%);}
+a:hover{color: hsl(245, 56%, 60%); text-decoration: none;}
 
 .left{
     display: flex;
@@ -70,4 +71,13 @@ button{
     color: hsl(224, 23%, 55%);
     font-weight: 900;
     font-size: 16px;
+}
+.cancel:hover{
+    background-color: transparent;
+    color: hsl(223, 47%, 23%);
+}
+
+button:hover{
+    background-color: hsl(245, 56%, 60%);
+    cursor: pointer;
 }
